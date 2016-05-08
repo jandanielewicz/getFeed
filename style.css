@@ -1,0 +1,99 @@
+* { padding: 0; margin: 0; }
+body { font-family: Arial }
+
+.page_wrapper {
+	max-width: 600px;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.gallery-wrap { height: 100%; margin: 0 auto; overflow: hidden; }
+
+.slideshow_wrapper {
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-width: 500px;
+}
+
+.controls_wrapper {
+	margin: 0 auto;
+	max-width: 500px;
+	padding-bottom: 5px;
+}
+
+input[type=text] {
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+input[type=checkbox] {
+	top: 3px;
+	position: relative;
+}
+input[type=text]:focus { border-color: #333; }
+input[type=submit] {
+	padding: 6px 15px;
+	background: #ccc;
+	border: 0 none;
+	cursor: pointer;
+}
+
+input.search_tag {
+	width: 60%;
+	max-width: 190px;
+}
+label {font-size: 11px; cursor: pointer;}
+
+#slider-wrapper {
+	margin: 0 auto;
+	border: 1px solid #c4c4c4;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+}
+
+#slider {
+	background: -moz-linear-gradient(-45deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* IE10+ */
+	background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+	height: 300px;
+	width: 500px;
+	margin: 0 auto;
+	display: block;
+}
+
+#nav {
+	top: -100%;
+	width: 100%;
+	position: relative;
+	display: block;
+	height: 100%;
+	margin: auto;
+}
+
+#button-prev { float: left; cursor: pointer; top: 45%; position: relative; }
+#button-next { float: right; cursor: pointer; top: 45%; position: relative; }
+
+#nav { opacity: 0 }
+#nav:hover { opacity: 1 }
+
+.fadein { position: relative; width: 500px; height: 300px; }
+.fadein img { max-height: 300px; left: 0; top: 0; }
+
+#preloaderGif {
+	background: url('http://www.ajaxload.info/images/exemples/26.gif') 50% 50% no-repeat transparent;
+	width: 100%;
+	height: 35px;
+	vertical-align: middle;
+	margin: auto;
+	top: 34%;
+	position: absolute;
+	left: 0%;
+	z-index: 9999;
+
+}
+
