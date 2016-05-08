@@ -20,7 +20,7 @@
 	<div class="controls_wrapper">
 		<form method="get">
 			<input type="text" placeholder="search for image tag" name="search_tag" class="search_tag"
-			       value="<?php echo(!empty($_GET['search_tag']) ? $_GET['search_tag'] : 'fractal tree'); ?>">
+			       value="<?php echo(!empty($_GET['search_tag']) ? $_GET['search_tag'] : ''); ?>">
 			<input type="submit">
 		</form>
 	</div>
